@@ -1,6 +1,2 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-/admin
-.httr-oauth
+*.html linguist-documentation
+*.Rmd linguist-language=R
