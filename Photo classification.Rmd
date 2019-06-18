@@ -20,7 +20,7 @@ library(kableExtra)
 ```
 &nbsp;
 
-This tutorial describes the workflow and R code that can be used to classify a large number of images into *discrete* categories, based on their content (interactive HTML file can be downloaded [here](<https://github.com/xp-song/photo-classify>)). It provides supplementary information to the following publication:
+This tutorial describes the workflow and R code that can be used to classify a large number of images into *discrete* categories, based on their content. The source documents are available on [GitHub](<https://github.com/xp-song/photo-classify>), and the interactive HTML is viewable [here](http://htmlpreview.github.io/?https://github.com/xp-song/photo-classify/blob/master/Photo_classification.html). This tutorial provides supplementary information to the following publication:
 
 Song, X.P., Richards, D.R., Tan, P.Y. (2019). Using social media user attributes to understand human–environment interactions at urban parks (in review).  
 
