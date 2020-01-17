@@ -2,7 +2,7 @@
 title: "Automated image classification into content-type categories"
 subtitle: "Classify images based on keywords generated from the Google Cloud Vision API"
 author: "Song, Xiao Ping"
-date: 2019
+date: 2020
 output:
   html_document:
     keep_md: true
@@ -17,9 +17,11 @@ params:
 
 &nbsp;
 
-This tutorial describes the workflow and R code that can be used to classify a large number of images into *discrete* categories, based on their content (interactive HTML file can be downloaded [here](<https://github.com/xp-song/photo-classify>)). It provides supplementary information to the following publication:
+This tutorial describes the workflow and R code that can be used to classify a large number of images into *discrete* categories, based on their content. The source documents are available on [GitHub](<https://github.com/xp-song/photo-classify>), and the interactive HTML is viewable [here](http://htmlpreview.github.io/?https://github.com/xp-song/photo-classify/blob/master/Photo_classification.html). This tutorial provides supplementary information to the following publication:
 
-Song, X.P., Richards, D.R., Tan, P.Y. (2019). Using social media user attributes to understand human–environment interactions at urban parks (in review).  
+&nbsp;
+
+Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks. Scientific Reports (forthcoming). https://doi.org/10.1038/s41598-020-57864-4
 
 An earlier iteration of the code was used in [this publication](https://doi.org/10.1016/j.ecoser.2017.09.004). Note that there are [numerous other ways to classify images](https://doi.org/10.1016/J.ECOLIND.2018.08.035), including those that deal with overlapping content.
 
@@ -408,7 +410,7 @@ colnames(scenarios) <- c("k","distance","marginalDelta")
 
 Here are plots of the results across different clustering scenarios:
 <div class="figure" style="text-align: center">
-<img src="Photo_classification_files/figure-html/clusteringscenarios_results-1.png" alt="Differences between within- and between-cluster variation, across different clustering scenarios"  /><img src="Photo_classification_files/figure-html/clusteringscenarios_results-2.png" alt="Differences between within- and between-cluster variation, across different clustering scenarios"  />
+<img src="Photo-classification_files/figure-html/clusteringscenarios_results-1.png" alt="Differences between within- and between-cluster variation, across different clustering scenarios"  /><img src="Photo-classification_files/figure-html/clusteringscenarios_results-2.png" alt="Differences between within- and between-cluster variation, across different clustering scenarios"  />
 <p class="caption">Differences between within- and between-cluster variation, across different clustering scenarios</p>
 </div>
 &nbsp;
@@ -439,7 +441,7 @@ colnames(scenarios) <- c("k","distance", "marginalDelta", "Lrmse")
 
 Now we can plot RMSE across an increasing number of clusters (k). In our example, the lowest RMSE value where k = ``11``. This is the 'knee' of the graph. Note that there are a roughly balanced number of points on either side of this value.
 <div class="figure" style="text-align: center">
-<img src="Photo_classification_files/figure-html/rmse_plot-1.png" alt="Total RMSE of possible pairs of best-fit lines."  />
+<img src="Photo-classification_files/figure-html/rmse_plot-1.png" alt="Total RMSE of possible pairs of best-fit lines."  />
 <p class="caption">Total RMSE of possible pairs of best-fit lines.</p>
 </div>
 
@@ -465,5 +467,5 @@ plot(as.dendrogram(cluz), sub = "", xlab ="", ylab = "Height", main = "Hierarchi
 rect.hclust(cluz, k = 11, border = "red")
 ```
 
-![](Photo_classification_files/figure-html/final_clustering-1.png)<!-- -->
+![](Photo-classification_files/figure-html/final_clustering-1.png)<!-- -->
 
