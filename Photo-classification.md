@@ -17,7 +17,7 @@ params:
 
 &nbsp;
 
-This tutorial describes the workflow and R code that can be used to classify a large number of images into *discrete* categories, based on their content. The source documents are available on [GitHub](<https://github.com/xp-song/photo-classify>), and the interactive HTML is viewable [here](http://htmlpreview.github.io/?https://github.com/xp-song/photo-classify/blob/master/Photo_classification.html). This tutorial provides supplementary information to the following publication:
+This tutorial describes the workflow and R code that can be used to classify a large number of images into *discrete* categories, based on their content. The source documents are available on [GitHub](<https://github.com/xp-song/photo-classify>), and the interactive HTML is viewable [here](http://htmlpreview.github.io/?https://github.com/xp-song/photo-classify/blob/master/Photo-classification.html). This tutorial provides supplementary information to the following publication:
 
 &nbsp;
 
