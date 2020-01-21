@@ -4,7 +4,7 @@ This repository documents the workflow and R code that can be used to classify a
 
 &nbsp;
 
-Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks. Scientific Reports (forthcoming). https://doi.org/10.1038/s41598-020-57864-4
+Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks. Scientific Reports **10**, 808. https://doi.org/10.1038/s41598-020-57864-4
 
 The HTML document `Photo_classification.html` demonstrates how to generate photograph keywords using the [Google Cloud Vision API](https://cloud.google.com/vision/), and classify photographs based on similarities between their keywords. The file is viewable at [this link](http://htmlpreview.github.io/?https://github.com/xp-song/photo-classify/blob/master/Photo-classification.html). 
 

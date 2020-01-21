@@ -21,7 +21,7 @@ This tutorial describes the workflow and R code that can be used to classify a l
 
 &nbsp;
 
-Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks. Scientific Reports (forthcoming). https://doi.org/10.1038/s41598-020-57864-4
+Song, X.P., Richards, D.R., Tan, P.Y. (2020). Using social media user attributes to understand human–environment interactions at urban parks. Scientific Reports **10**, 808. https://doi.org/10.1038/s41598-020-57864-4
 
 An earlier iteration of the code was used in [this publication](https://doi.org/10.1016/j.ecoser.2017.09.004). Note that there are [numerous other ways to classify images](https://doi.org/10.1016/J.ECOLIND.2018.08.035), including those that deal with overlapping content.
 
